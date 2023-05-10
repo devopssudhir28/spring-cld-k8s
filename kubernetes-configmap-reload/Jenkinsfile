@@ -21,7 +21,7 @@ pipeline {
 			}
             steps {
                 gitCheckout(
-                    branch: "main",
+                    branch: "master",
                     url: "https://github.com/devopssudhir28/spring-cld-k8s.git"
                 )
             }
